@@ -6,8 +6,9 @@
 # - 0,56 -> 11
 
 
-n = input('write number: ') 
+n = float(input('write number: ')) 
 suma = 0
+
 while n != 0:
     x = n % 10
     suma = suma + x
